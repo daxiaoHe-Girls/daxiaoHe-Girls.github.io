@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+## Welcome to daxiaoHe-Girls GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+> 作者：何晓俊，何晓婷
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+> 创建日期：2019年9月1号
 
-### Markdown
+> 博客简介：该博客主要记录了作者从研究生时代到IT社畜的一些求职经历、工作经验。包括但不限于：技术语言、算法、计算机网络、操作系统、数据库、开发工具、开发框架、测试工具、测试框架、中间件、CI平台等。
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## 目录
+语言基础
 
-```markdown
-Syntax highlighted code block
+Java进阶
 
-# Header 1
-## Header 2
-### Header 3
+算法
 
-- Bulleted
-- List
+数据库
 
-1. Numbered
-2. List
+中间件
 
-**Bold** and _Italic_ and `Code` text
+操作系统
 
-[Link](url) and ![Image](src)
-```
+计算机网络
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+开发工具
 
-### Jekyll Themes
+开发框架
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+测试工具
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+测试框架
