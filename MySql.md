@@ -475,8 +475,8 @@ mysql执行sql时，会同时锁定这个sql中所有用到的行/表(由引擎�
 > 执行insert，27th事务创建了一条记录
 
 
- | Id | Name | create version | delete version | 
- |---|---|---|---|---|  
+ | Id | Name | create version | delete version |  
+ |---|---|---|---|  
  |1 | hexiaoting |  27|  
 
 
@@ -484,7 +484,7 @@ mysql执行sql时，会同时锁定这个sql中所有用到的行/表(由引擎�
 
 
 |Id | Name | create version|delete version|  
-|---|---|---|---|---|  
+|---|---|---|---|  
 |1 | hexiaoting |  27| 28 | 
 |1 | hexiaojun | 28|  
 
@@ -493,7 +493,7 @@ mysql执行sql时，会同时锁定这个sql中所有用到的行/表(由引擎�
 
 
 |Id | Name | create version|delete version|  
-|---|---|---|---|---|  
+|---|---|---|---|  
 |1 | hexiaoting |  27| 28|  
 |1 | hexiaojun | 28 | 29|  
 
