@@ -474,23 +474,23 @@ mysql执行sql时，会同时锁定这个sql中所有用到的行/表(由引擎�
 > 注：版本号就是事务版本号，create version表明这行记录由哪个事务创建，delete version表明这行记录由哪个事务删除。  
 > 执行insert，27th事务创建了一条记录
 
- Id | Name | create version|delete version  
- ---|---|---|---|---  
- 1 | hexiaoting |  27|  
+ | Id | Name | create version | delete version | 
+ |---|---|---|---|---|  
+ |1 | hexiaoting |  27|  
 
 > 执行update，28th事务更新了一条记录，并将原记录标记为已过期
 
-Id | Name | create version|delete version  
----|---|---|---|---  
-1 | hexiaoting |  27| 28  
-1 | hexiaojun | 28  
+|Id | Name | create version|delete version|  
+|---|---|---|---|---|  
+|1 | hexiaoting |  27| 28 | 
+|1 | hexiaojun | 28|  
 
 > 执行delete，29th事务删除了一条记录，即把记录标记为已过期
 
-Id | Name | create version|delete version  
----|---|---|---|---  
-1 | hexiaoting |  27| 28  
-1 | hexiaojun | 28 | 29  
+|Id | Name | create version|delete version|  
+|---|---|---|---|---|  
+|1 | hexiaoting |  27| 28|  
+|1 | hexiaojun | 28 | 29|  
 
 > 执行select，查询事务是Xth，满足以下条件的记录才能被查出：  
 > 1)X<=delect version，意味着当前事务Xth早于删除操作所在的事务  
