@@ -14,7 +14,7 @@ Java进阶
 算法
 
 数据库  
-&nbsp;&nbsp;&nbsp;&nbsp; [MySQL](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/MySql.md)
+&nbsp;&nbsp;&nbsp;&nbsp; [MySQL](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/MySQL.md)
 
 中间件
 
