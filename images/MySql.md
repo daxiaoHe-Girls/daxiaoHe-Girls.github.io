@@ -596,10 +596,11 @@ InnoDB要求表必须有主键（MyISAM可以没有），如果没有显式指�
 
 ![索引](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/%E7%B4%A2%E5%BC%95.PNG)
 
-### 27.	sql优化
+### 27.	sql优化  
+
 ![sql优化](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/sql%E4%BC%98%E5%8C%96.PNG)
 
-### 28.	char和varchar
+### 28.	char和varchar  
 ![char_varchar](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/char_varchar.PNG)
 
 ### 29.	存储过程
