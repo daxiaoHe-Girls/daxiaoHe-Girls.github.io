@@ -21,6 +21,8 @@ Java进阶
 操作系统
 
 计算机网络
+&nbsp;&nbsp;&nbsp;&nbsp;
+[计算机网络基础知识](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.md)
 
 开发工具
 
