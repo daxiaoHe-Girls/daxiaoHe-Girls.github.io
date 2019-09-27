@@ -36,7 +36,10 @@
 
 **图2: websocket事例**  
 
-<img src="https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_WebSocket/ws%E5%9B%BE%E7%A4%BA.png" width="400" hegiht="300" align=center />
+<div align="center">
+    <img src="https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_WebSocket/ws%E5%9B%BE%E7%A4%BA.png" width="400" hegiht="300"/>
+</div> 
+
 
 - **通信机制** 
 
