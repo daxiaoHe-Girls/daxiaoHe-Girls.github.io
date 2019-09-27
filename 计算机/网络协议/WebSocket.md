@@ -1,5 +1,7 @@
 
-
+- [1.背景](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE/WebSocket.md#1-%E8%83%8C%E6%99%AF)
+- [2.WebSocket是什么](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE/WebSocket.md#2-websocket%E6%98%AF%E4%BB%80%E4%B9%88)
+- [3.WebSocket原理（Wireshark抓包分析）](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE/WebSocket.md#3-websocket%E5%8E%9F%E7%90%86wireshark%E6%8A%93%E5%8C%85%E5%88%86%E6%9E%90)
 
 
 # 1. 背景
@@ -14,7 +16,9 @@
 
 **图1: ajax轮询事例**
 
-<img src="https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_WebSocket/AJAX%E8%BD%AE%E8%AF%A2.png" width="400" hegiht="300" align=center />
+<div align="center">
+    <img src="https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_WebSocket/AJAX%E8%BD%AE%E8%AF%A2.png" width="400" hegiht="300" />
+</div> 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 **长轮询**: 客户端向服务器请求信息，并在设定的时间段内打开一个连接，服务器如果没有任何信息，会保持请求打开，直到有客户端可用的信息，或者直到指定的超时时间用完为止。这个时候，客户端会重新向服务器请求信息。
