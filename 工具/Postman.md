@@ -1,4 +1,8 @@
 - [1. Postman功能](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E5%B7%A5%E5%85%B7/Postman.md#1-Postman功能)
+- [2. Postman的简单使用(抓包示例)](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E5%B7%A5%E5%85%B7/Postman.md#1-Postman的简单使用抓包示例)
+- [3. Postman进阶：Collections的使用](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E5%B7%A5%E5%85%B7/Postman.md#1-Postman进阶Collections的使用)
+- [4. Postman进阶：环境变量](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E5%B7%A5%E5%85%B7/Postman.md#1-Postman进阶环境变量)
+- [5. Postman进阶：全局变量](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E5%B7%A5%E5%85%B7/Postman.md#1-Postman进阶全局变量)
 
 
 # 1. Postman功能
@@ -11,7 +15,7 @@
 ##### 如下图 
 
 <div align="center">
-    <img src="https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_postman/postman%E7%AE%80%E5%8D%95%E6%8A%93%E5%8C%85.png" width="500" hegiht="500" />
+    <img src="https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_postman/postman%E7%AE%80%E5%8D%95%E6%8A%93%E5%8C%85.png" width="650" hegiht="650" />
 </div>
 
 - **S1**:设置请求类型，是get请求还是post请求等（chrome浏览器提供了开发者工具，可以通过开发者工具抓http包，但chrome浏览器只允许用户发送get请求）
@@ -40,14 +44,14 @@ Collections是一个集合的概念，也可以理解为是一个文件夹，可
 ##### 如下图
 
 <div align="center">
-    <img src="https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_postman/Collections1.png" width="500" hegiht="500" />
+    <img src="https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_postman/Collections1.png" width="650" hegiht="650" />
 </div>
 
 - **S1**: 新建一个Collection
 - **S2**: 对于Collection的操作，点击箭头末端的小三角形，可以显示操作当前Collection的工具栏。然后点击箭头首端的三个点，可以显示具体工具，如下图。提供的工具包括：请求创建，文件夹创建，删除当前Collection等。另外，点击“Run” 可以同时执行该Collection里面的所有请求。
 
 <div align="center">
-    <img src="https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_postman/Collections2.png" width="500" hegiht="500" />
+    <img src="https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_postman/Collections2.png" width="650" hegiht="650" />
 </div>
 
 - **S3**: Collection内部的显示
@@ -58,13 +62,13 @@ Collections是一个集合的概念，也可以理解为是一个文件夹，可
 - 第一步： 环境变量添加的位置，点击箭头指向的“设置”按钮即可添加
 
 <div align="center">
-    <img src="https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_postman/Environment1.png" width="500" hegiht="500" />
+    <img src="https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_postman/Environment1.png" width="650" hegiht="650" />
 </div>
 
 -  第二步: 点击add
 
 <div align="center">
-    <img src="https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_postman/Environment2.png" width="500" hegiht="500" />
+    <img src="https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_postman/Environment2.png" width="650" hegiht="650" />
 </div>
 
 - 第三步: 
@@ -72,7 +76,7 @@ Collections是一个集合的概念，也可以理解为是一个文件夹，可
     - S2: 以键值对的方式设置该环境名下的环境变量
 
 <div align="center">
-    <img src="https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_postman/Environment3.png" width="500" hegiht="500" />
+    <img src="https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_postman/Environment3.png" width="650" hegiht="650" />
 </div>
 
 - 第四步:使用环境变量
@@ -80,7 +84,7 @@ Collections是一个集合的概念，也可以理解为是一个文件夹，可
     - S2: 用"{{}}" 的方式使用环境变量
 
 <div align="center">
-    <img src="https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_postman/Environment4.png" width="500" hegiht="500" />
+    <img src="https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_postman/Environment4.png" width="650" hegiht="650" />
 </div>
 
 # 5. Postman进阶：全局变量
@@ -89,25 +93,25 @@ Collections是一个集合的概念，也可以理解为是一个文件夹，可
 - 第一步： 全局变量添加的位置，点击箭头指向的“设置”按钮即可添加
 
 <div align="center">
-    <img src="https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_postman/Environment1.png" width="500" hegiht="500" />
+    <img src="https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_postman/Environment1.png" width="650" hegiht="650" />
 </div>
 
 -  第二步: 点击Globals
 
 <div align="center">
-    <img src="https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_postman/Environment2.png" width="500" hegiht="500" />
+    <img src="https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_postman/Environment2.png" width="650" hegiht="650" />
 </div>
 
 - 第三步: 以键值对的方式设置全局变量
 
 <div align="center">
-    <img src="https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_postman/Globals1.png" width="500" hegiht="500" />
+    <img src="https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_postman/Globals1.png" width="650" hegiht="650" />
 </div>
 
 - 第四步: 用"{{}}" 的方式使用全局变量，不需要指定当前环境
 
 <div align="center">
-    <img src="https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_postman/Globals2.png" width="500" hegiht="500" />
+    <img src="https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_postman/Globals2.png" width="650" hegiht="650" />
 </div>
 
 > 变量优先级：环境变量>全局变量
