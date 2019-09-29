@@ -1,3 +1,11 @@
+- [1. Redis数据类型](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E4%B8%AD%E9%97%B4%E4%BB%B6/Redis.md#1redis%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B)
+- [2. Redis中value数据类型的具体实现——底层数据类型——C语言编写](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E4%B8%AD%E9%97%B4%E4%BB%B6/Redis.md#2redis%E4%B8%ADvalue%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%85%B7%E4%BD%93%E5%AE%9E%E7%8E%B0%E5%BA%95%E5%B1%82%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8Bc%E8%AF%AD%E8%A8%80%E7%BC%96%E5%86%99)
+- [3. mySQL里有2000w数据，redis中只存20w的数据，如何保证redis中的数据都是热点数据](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E4%B8%AD%E9%97%B4%E4%BB%B6/Redis.md#3mysql%E9%87%8C%E6%9C%892000w%E6%95%B0%E6%8D%AEredis%E4%B8%AD%E5%8F%AA%E5%AD%9820w%E7%9A%84%E6%95%B0%E6%8D%AE%E5%A6%82%E4%BD%95%E4%BF%9D%E8%AF%81redis%E4%B8%AD%E7%9A%84%E6%95%B0%E6%8D%AE%E9%83%BD%E6%98%AF%E7%83%AD%E7%82%B9%E6%95%B0%E6%8D%AE)
+- [4. redis和memcached的区别](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E4%B8%AD%E9%97%B4%E4%BB%B6/Redis.md#4redis%E5%92%8Cmemcached%E7%9A%84%E5%8C%BA%E5%88%AB)
+- [5. Redis集群](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E4%B8%AD%E9%97%B4%E4%BB%B6/Redis.md#5redis%E9%9B%86%E7%BE%A4)
+- [6. redis持久化](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E4%B8%AD%E9%97%B4%E4%BB%B6/Redis.md#6redis%E6%8C%81%E4%B9%85%E5%8C%96)
+- [7. redis应用场景](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E4%B8%AD%E9%97%B4%E4%BB%B6/Redis.md#7redis%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF)
+
 ### 1.	Redis数据类型
 Redis 数据库里面的每个键值对（key-value） 都是由对象（object）组成的：  
 键——总是一个字符串对象（string object）  
