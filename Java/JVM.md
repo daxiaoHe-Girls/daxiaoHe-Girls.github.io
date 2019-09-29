@@ -1,3 +1,10 @@
+- [0. 目录](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/Java/JVM.md#0-%E7%9B%AE%E5%BD%95)
+- [1. jvm杂七杂八基础](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/Java/JVM.md#1-jvm%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB%E5%9F%BA%E7%A1%80)
+- [2. jvm内存+垃圾回收](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/Java/JVM.md#2-jvm%E5%86%85%E5%AD%98%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6)
+- [3. class文件结构+类加载机制](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/Java/JVM.md#3-class%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84%E7%B1%BB%E5%8A%A0%E8%BD%BD%E6%9C%BA%E5%88%B6/)
+- [4. 编译及优化](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/Java/JVM.md#4-%E7%BC%96%E8%AF%91%E5%8F%8A%E4%BC%98%E5%8C%96)
+
+
 # 0. 目录
 
 ![目录](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_jvm/%E7%9B%AE%E5%BD%95.jpg)
