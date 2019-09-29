@@ -1,3 +1,48 @@
+- [1. Linux常用命令](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#1linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4)
+- [2. linux下查看内存使用情况的命令](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#2linux%E4%B8%8B%E6%9F%A5%E7%9C%8B%E5%86%85%E5%AD%98%E4%BD%BF%E7%94%A8%E6%83%85%E5%86%B5%E7%9A%84%E5%91%BD%E4%BB%A4)
+- [3. linux下查看网络端口状态](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#3linux%E4%B8%8B%E6%9F%A5%E7%9C%8B%E7%BD%91%E7%BB%9C%E7%AB%AF%E5%8F%A3%E7%8A%B6%E6%80%81)
+- [4. 什么是Linux的交换Swap分区](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#4%E4%BB%80%E4%B9%88%E6%98%AFlinux%E7%9A%84%E4%BA%A4%E6%8D%A2swap%E5%88%86%E5%8C%BA)
+- [5. Linux的内存分配机制是怎么样的？](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#5linux%E7%9A%84%E5%86%85%E5%AD%98%E5%88%86%E9%85%8D%E6%9C%BA%E5%88%B6%E6%98%AF%E6%80%8E%E4%B9%88%E6%A0%B7%E7%9A%84)
+- [6. windows的虚拟内存是指什么？](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#6windows%E7%9A%84%E8%99%9A%E6%8B%9F%E5%86%85%E5%AD%98%E6%98%AF%E6%8C%87%E4%BB%80%E4%B9%88)
+- [7. 硬盘的逻辑分区和扩展分区是怎么存储的？有什么区别？](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#7%E7%A1%AC%E7%9B%98%E7%9A%84%E9%80%BB%E8%BE%91%E5%88%86%E5%8C%BA%E5%92%8C%E6%89%A9%E5%B1%95%E5%88%86%E5%8C%BA%E6%98%AF%E6%80%8E%E4%B9%88%E5%AD%98%E5%82%A8%E7%9A%84%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB)
+- [8. linux下挂载磁盘管理的命令](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#8linux%E4%B8%8B%E6%8C%82%E8%BD%BD%E7%A3%81%E7%9B%98%E7%AE%A1%E7%90%86%E7%9A%84%E5%91%BD%E4%BB%A4)
+- [9. linux内核主要有几种内核锁](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#9linux%E5%86%85%E6%A0%B8%E4%B8%BB%E8%A6%81%E6%9C%89%E5%87%A0%E7%A7%8D%E5%86%85%E6%A0%B8%E9%94%81)
+- [10. linux用户模式和内核模式](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#10linux%E7%94%A8%E6%88%B7%E6%A8%A1%E5%BC%8F%E5%92%8C%E5%86%85%E6%A0%B8%E6%A8%A1%E5%BC%8F)
+- [11. 硬链接、软链接](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#11%E7%A1%AC%E9%93%BE%E6%8E%A5%E8%BD%AF%E9%93%BE%E6%8E%A5)
+- [12. find和grep区别](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#12find%E5%92%8Cgrep%E5%8C%BA%E5%88%AB)
+- [13. 关于linux文件系统(帮助理解其他内容)](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#13%E5%85%B3%E4%BA%8Elinux%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E5%B8%AE%E5%8A%A9%E7%90%86%E8%A7%A3%E5%85%B6%E4%BB%96%E5%86%85%E5%AE%B9)
+- [14. vim编辑器](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#14vim%E7%BC%96%E8%BE%91%E5%99%A8)
+- [15. linux目录结构](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#15linux%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84)
+- [16. linux命令分类](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#16linux%E5%91%BD%E4%BB%A4%E5%88%86%E7%B1%BB)
+- [17. linux命令常用快捷键](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#17linux%E5%91%BD%E4%BB%A4%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE)
+- [18. linux用户管理](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#18linux%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86)
+- [19. linux目录操作](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#19linux%E7%9B%AE%E5%BD%95%E6%93%8D%E4%BD%9C)
+- [20. linux文件操作](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#20linux%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C)
+- [21. Linux文本操作](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#21linux%E6%96%87%E6%9C%AC%E6%93%8D%E4%BD%9C)
+- [22. Linux变量操作](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#22linux%E5%8F%98%E9%87%8F%E6%93%8D%E4%BD%9C)
+- [23. 管道](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#23%E7%AE%A1%E9%81%93)
+- [24. Linux指令执行顺序控制](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#24linux%E6%8C%87%E4%BB%A4%E6%89%A7%E8%A1%8C%E9%A1%BA%E5%BA%8F%E6%8E%A7%E5%88%B6)
+- [25. Linux磁盘](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#25linux%E7%A3%81%E7%9B%98)
+- [26. 任务计划](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#26%E4%BB%BB%E5%8A%A1%E8%AE%A1%E5%88%92)
+- [27. 正则表达式](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#27%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F)
+- [28. 数据流重定向](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#28%E6%95%B0%E6%8D%AE%E6%B5%81%E9%87%8D%E5%AE%9A%E5%90%91)
+- [29. Linux下的软件安装](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#29linux%E4%B8%8B%E7%9A%84%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85)
+- [30. Linux进程概念、管理](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#30linux%E8%BF%9B%E7%A8%8B%E6%A6%82%E5%BF%B5%E7%AE%A1%E7%90%86)
+- [31. Linux日志系统](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#31linux%E6%97%A5%E5%BF%97%E7%B3%BB%E7%BB%9F)
+- [32. free命令——查看内存使用情况](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#32free%E5%91%BD%E4%BB%A4%E6%9F%A5%E7%9C%8B%E5%86%85%E5%AD%98%E4%BD%BF%E7%94%A8%E6%83%85%E5%86%B5)
+- [33. htop命令——实时查看，类似(top+实时更新)](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#33htop%E5%91%BD%E4%BB%A4%E5%AE%9E%E6%97%B6%E6%9F%A5%E7%9C%8B%E7%B1%BB%E4%BC%BCtop%E5%AE%9E%E6%97%B6%E6%9B%B4%E6%96%B0)
+- [34. Linux虚拟内存管理](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#34linux%E8%99%9A%E6%8B%9F%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86)
+- [35. echo](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#35echo)
+- [36. head & tail](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#36head--tail)
+- [37. Linux中快速清空文件内容的几种方法](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#37linux%E4%B8%AD%E5%BF%AB%E9%80%9F%E6%B8%85%E7%A9%BA%E6%96%87%E4%BB%B6%E5%86%85%E5%AE%B9%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95)
+- [38. 关机](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#38%E5%85%B3%E6%9C%BA)
+- [39. 包管理工具](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#39%E5%8C%85%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7)
+- [40. Linux 发行版是 Linux 内核及各种应用软件的集成版本](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#40linux-%E5%8F%91%E8%A1%8C%E7%89%88%E6%98%AF-linux-%E5%86%85%E6%A0%B8%E5%8F%8A%E5%90%84%E7%A7%8D%E5%BA%94%E7%94%A8%E8%BD%AF%E4%BB%B6%E7%9A%84%E9%9B%86%E6%88%90%E7%89%88%E6%9C%AC)
+- [41. 磁盘接口](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#41%E7%A3%81%E7%9B%98%E6%8E%A5%E5%8F%A3)
+- [42. netstat](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA/Linux.md#42netstat)
+
+
+
 # 1.	Linux常用命令
 - **文件目录相关**：ls、cd、pwd、mkdir、rmdir、mv、cp、touch、cat；  
 - **文件查找类型的**：which、find
@@ -171,8 +216,11 @@ swap分区就是虚拟内存，也就是用磁盘当做RAM的扩展。当系统�
 ![vim编辑器](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_linux/vim%E7%BC%96%E8%BE%91%E5%99%A8.png)  
 
 > :wq!   强制保存退出  
-:q!  强制退出，不保存
- 
+:q!  强制退出，不保存  
+删除文本内所有内容：gg dG  
+gg  将光标移动到文件的第一行  
+dG  删除其中的所有行或文本
+
 # 15.	linux目录结构 
 > 以往的 Windows 一直是以存储介质为主的，主要以盘符及分区来实现文件管理，之下才是目录；
 Linux恰好相反，Linux是以树形目录结构的形式来构建整个系统。虽然本质上无论是目录结构还是操作系统内核都是存储在磁盘上的，但从逻辑上来说 Linux 的磁盘是挂载在目录上的，每一个目录不仅能使用本地磁盘分区的文件系统，也可以使用网络上的文件系统。  
