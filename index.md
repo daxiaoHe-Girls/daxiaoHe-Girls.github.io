@@ -10,7 +10,7 @@
 Java 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
-[Java小知识点汇总](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/Java%E5%B0%8F%E7%9F%A5%E8%AF%86%E7%82%B9%E6%B1%87%E6%80%BB.md)
+[Java小知识点汇总](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/Java/Java%E5%B0%8F%E7%9F%A5%E8%AF%86%E7%82%B9%E6%B1%87%E6%80%BB.md)
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 [Java并发](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/Java/Java%E5%B9%B6%E5%8F%91.md)
