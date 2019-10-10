@@ -3,6 +3,7 @@
 - [3. Postman进阶：Collections的使用](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E5%B7%A5%E5%85%B7/Postman.md#3-postman%E8%BF%9B%E9%98%B6collections%E7%9A%84%E4%BD%BF%E7%94%A8)
 - [4. Postman进阶：环境变量](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E5%B7%A5%E5%85%B7/Postman.md#4-postman%E8%BF%9B%E9%98%B6%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F)
 - [5. Postman进阶：全局变量](https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/%E5%B7%A5%E5%85%B7/Postman.md#5-postman%E8%BF%9B%E9%98%B6%E5%85%A8%E5%B1%80%E5%8F%98%E9%87%8F)
+- 
 
 
 # 1. Postman功能
@@ -115,3 +116,53 @@ Collections是一个集合的概念，也可以理解为是一个文件夹，可
 </div>
 
 > 变量优先级：环境变量>全局变量
+
+# 6. Postman进阶：迭代请求  
+
+当我们需要重复某个请求多次的时候，我们可以通过代码设置某个请求的循环次数，但postman同样支持迭代循环发送请求，以及请求发送的时间间隔或者延迟发送时间等。
+
+- 第一步： 选择要迭代的请求所属的collection，点击“小三角”，继续点击“Run”
+
+<div align="center">
+    <img src="https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_postman/%E8%BF%AD%E4%BB%A31.png" width="750" hegiht="750" />
+</div>
+
+- 第二步： 通过右上角的“选择”或“反选”，选择该collection中需要迭代的一个或者多个请求
+
+<div align="center">
+    <img src="https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_postman/%E8%BF%AD%E4%BB%A32.png" width="750" hegiht="750" />
+</div>
+
+
+- 第三步： 在左侧配置栏中进行配置
+    - Environment：测试环境
+    - Iterations：迭代次数
+    - Delay：延时时间
+
+<div align="center">
+    <img src="https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_postman/%E8%BF%AD%E4%BB%A33.png" width="750" hegiht="750" />
+</div>
+
+
+- 第四步： 点击最左下角的“Run XXX”即可
+
+
+<div align="center">
+    <img src="https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_postman/Globals2.png" width="750" hegiht="750" />
+</div>
+
+# 7. Postman进阶：js脚本测试
+postman不仅可以抓包，还可以简单的实现一些测试功能，比如测试response的响应码、response是否是json格式、response里面的字段或字段值是否符合预期等。  
+
+<div align="center">
+    <img src="https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_postman/js1.png" width="750" hegiht="750" />
+</div>
+
+### 常用测试脚本
+- response为json格式
+
+```
+tests["检测是否返回json"] = responseBody.has("reason");
+```
+- 后面使用到再添加～～ 有需要可自行百度
+
