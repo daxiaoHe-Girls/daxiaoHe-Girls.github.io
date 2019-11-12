@@ -161,3 +161,18 @@ tests["检测是否返回json"] = responseBody.has("reason");
 ```
 - 后面使用到再添加～～ 有需要可自行百度
 
+
+# 8. Postman进阶：获取curl  
+在shell脚本中，或者在命令行，我们可以通过curl实现请求的发送。当你不会写curl的时候，可以通过postman获取。
+
+- 第一步：点击右侧“code”即可 
+
+<div align="center">
+    <img src="https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_postman/curl1.png" width="750" hegiht="750" />
+</div>
+
+- 第二步：获取curl
+
+<div align="center">
+    <img src="https://github.com/daxiaoHe-Girls/daxiaoHe-Girls.github.io/blob/master/images/images_postman/curl2.png" width="750" hegiht="750" />
+</div>
